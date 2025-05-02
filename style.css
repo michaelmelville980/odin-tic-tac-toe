@@ -34,4 +34,9 @@ body {
     height: 100%;
     width: 100%;
     background: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
 }
