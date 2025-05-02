@@ -89,18 +89,10 @@ function startGame(p1, p2){
 
 
 
-// Playing Game
-const game = startGame(createPlayer("sarah"), createPlayer("sam"));
-game.handleTurn(0);
-game.handleTurn(5);
-game.handleTurn(1);
-game.handleTurn(8);
-game.handleTurn(2);
-console.log(gameBoard.array);
-console.log(game.getResult());
+// display array contents to board
 
-game.reset();
-console.log(gameBoard.array);
+
+
 
 
 
