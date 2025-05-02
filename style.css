@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: system-ui;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+}
+
+
+
+#board {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    background: black;
+}
+
+
+#board > div {
+    height: 100%;
+    width: 100%;
+    background: white;
+}
