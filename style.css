@@ -40,3 +40,8 @@ body {
     align-items: center;
     font-size: 4rem;
 }
+
+#buttons {
+    display: flex;
+    gap: 50px;
+}
